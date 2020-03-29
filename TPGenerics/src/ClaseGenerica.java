@@ -15,31 +15,32 @@ public class ClaseGenerica <T extends Comparable> {
     }
 
     public  boolean verifyExist(T objeto){
+
         return this.list.contains(objeto);
     }
 
     public T getMax(){
-        T max = null;
+       /* T max = null;
         if (!this.list.isEmpty()) {
             max = this.list.get(0);
             for (T e : this.list) {
                 if (max.compareTo(e) < 0) max = e;
             }
         }
-        return max;
-        //return (T) Collections.max(this.list);
+        return max; */
+        return (T) Collections.max(this.list);
     }
 
     public T getMin(){
-        T min = null;
+        /*T min = null;
         if (!this.list.isEmpty()) {
             min = this.list.get(0);
             for (T e : this.list) {
                 if (min.compareTo(e) > 0) min = e;
             }
         }
-        return min;
-        //return (T) Collections.min(this.list);
+        return min;*/
+        return (T) Collections.min(this.list);
     }
 
     public T delete(){
