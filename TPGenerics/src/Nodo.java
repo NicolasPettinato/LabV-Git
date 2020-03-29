@@ -8,11 +8,11 @@ public class Nodo<T> {
         this.next = null;
     }
 
-    T getNodo(){
+    public T getNodo(){
         return nodo;
     }
 
-    public void setNodo(T nodo){
+    public void setNodo(T nodo) {
         this.nodo = nodo;
     }
 

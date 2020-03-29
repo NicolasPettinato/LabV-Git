@@ -3,19 +3,22 @@ public class MainPila {
         Pila<Integer> pila = new Pila<>();
         pila.push(2);
         //System.out.println(pila);
-        pila.push(21);
+        pila.push(35);
         //System.out.println(pila);
-        pila.push(-1);
+        pila.push(10);
+        //System.out.println(pila);
+        pila.push(50);
 
         System.out.println(pila);
 
-        int tamaño = pila.size();
-        System.out.println(tamaño);
+        System.out.println(pila.size());
 
         System.out.println(pila.pop());
 
-        int tamaño2 = pila.size();
-        System.out.println(tamaño2);
+        System.out.println(pila.size());
+
+        System.out.println(pila);
+        
     }
 
 }
