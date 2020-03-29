@@ -76,7 +76,7 @@ public class Pila<T> {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("\nElementos:\n");
+        sb.append("Elementos:\n");
         Nodo reco = lista;
         while (reco!=null) {
             sb.append(reco.getNodo()+"\n");

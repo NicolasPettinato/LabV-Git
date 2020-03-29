@@ -11,14 +11,14 @@ public class MainPila {
 
         System.out.println(pila);
 
-        System.out.println(pila.size());
+        System.out.println("Tamaño: " + pila.size());
 
-        System.out.println(pila.pop());
+        System.out.println("Elemento eliminado: " + pila.pop());
 
-        System.out.println(pila.size());
-
+        System.out.println("Tamaño: " + pila.size());
+        System.out.println("\n");
         System.out.println(pila);
-        
+
     }
 
 }
